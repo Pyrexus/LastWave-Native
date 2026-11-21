@@ -754,7 +754,7 @@ internal fun HomeContainerSection(
     Surface(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp)
+            .padding(horizontal = 8.dp)
             .padding(bottom = 3.dp),
         shape = shape,
         color = MaterialTheme.colorScheme.surfaceContainerHigh.copy(alpha = 0.5f),
@@ -762,7 +762,7 @@ internal fun HomeContainerSection(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 12.dp),
+                .padding(vertical = 8.dp),
             content = content,
         )
     }
